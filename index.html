@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>agersworld</title>
+  <meta name="description" content="Portfolio of Jesse Ager, a professional web developer and designer. Explore projects, skills, and get in touch.">
+  <!-- Social Media Meta Tags -->
+  <meta property="og:title" content="Jesse Ager portfolio">
+  <meta property="og:description" content="Professional portfolio of Jesse Ager, a skilled web developer and designer.">
+  <meta property="og:image" content="path/to/thumbnail.jpg">
+  <meta property="og:url" content="https://www.agersworld.com">
+  <link rel="stylesheet" href="styles/index.css">
+  <script src="fetch.js"></script>
+  
+</head>
+<body>
+  <!-- Header Section with Navigation -->
+  <header>
+      <div id="header"></div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero" aria-label="Hero Section">
+    <div class="container">
+      <h2>Welcome to My Portfolio</h2>
+      <p>I’m Jesse Ager, a passionate web developer and designer committed to crafting outstanding digital experiences.</p>
+      <a href="projects.html" class="btn">View My Work</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" aria-label="About Me">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>I am a dedicated professional with a strong background in web development and design. I specialize in creating responsive, accessible, and visually appealing websites.
+        With fast scalable and highly usable backend.
+      </p>
+      <img src="assets/profile.jpg" alt="ager">
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" aria-label="Skills">
+    <div class="container">
+      <h2>My Skills</h2>
+      <ul>
+        <li>Django Framework &amp; Flask </li>
+        <li>JavaScript &amp; React</li>
+        <li>Responsive Design</li>
+        <li>Graphic Design </li>
+        <li>Data Analysis &amp; Visualization</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" aria-label="Projects">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="project-grid">
+        <!-- Example Project Card -->
+        <article class="project-card">
+          <img src="assets/project.jpg" alt="Screenshot of Project Title 1">
+          <h3>StudyBud</h3>
+          <p>A study hub for coding collaboration built with Django and React</p>
+          <a href="project.html" class="btn">Learn More</a>
+        </article>
+        <article class="project-card">
+          <img src="assets/project.jpg" alt="Screenshot of Project Title 1">
+          <h3>StudyBud</h3>
+          <p>A study hub for coding collaboration built with Django anf React</p>
+          <a href="project.html" class="btn">Learn More</a>
+        </article>
+        <!-- More project cards can be added here -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section id="testimonials" aria-label="Testimonials">
+    <div class="container">
+      <h2>Testimonials</h2>
+      <blockquote>
+        <p>"Jesse delivered an exceptional website that surpassed our expectations. His attention to detail and creativity are unparalleled."</p>
+        <cite>- Satisfied Client</cite>
+      </blockquote>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" aria-label="Contact">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <form action="submit_form.php" method="POST">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer>
+    <div id="footer"></div>
+  </footer>
+</body>
+</html>
